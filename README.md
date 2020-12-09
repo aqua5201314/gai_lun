@@ -104,7 +104,7 @@ Boolean algebra布尔代数				Logic Diagram逻辑图			Truth Table真值表
 Circuit Equivalence 等值电路
 
 # Chapter 5 Computing Components
-- sorted-program存储程序——von Neumann architecture冯诺依曼结构——memory unit内存单元（存储data数据和instruction指令）——arithmetic/logic unit算术逻辑单元（算术和逻辑运算）——input unit输入单元——output unit输出单元——control unit控制单元（确保其他部件components参与表演）——central processing unit中央处理器（内含control unit和arithmetic/logic unit）——cell单元，一个bit，因为是存储单元所以叫cell——ALU算术逻辑单元，操作的是字word——register寄存器CPU中一小块存储区域只能容纳一个立刻会再次用到的word——control unit实现fetch-execute cycle读取执行周期——control unit有instruction register指令寄存器IR存放正在执行的指令和program counter程序计数器PC存放下一条要执行指令的地址——CPU中央处理器是control unit和arithmetic logic unit的结合——bus
+- sorted-program存储程序——von Neumann architecture冯诺依曼结构——memory unit内存单元（存储data数据和instruction指令）——arithmetic/logic unit算术逻辑单元（算术和逻辑运算）——input unit输入单元——output unit输出单元——control unit控制单元（确保其他部件components参与表演）——central processing unit中央处理器（内含control unit和arithmetic/logic unit）——cell单元，一个bit，因为是存储单元所以叫cell——ALU算术逻辑单元，操作的是字word——register寄存器CPU中一小块存储区域只能容纳一个立刻会再次用到的word——control unit实现fetch-execute cycle读取执行周期——control unit有instruction register指令寄存器IR存放正在执行的指令和program counter程序计数器PC存放下一条要执行指令的地址——CPU中央处理器是control unit和arithmetic logic unit的结合——bus总线——bus width总线宽度（总线越宽，一次能传输的地址和数据bit越多）——cache缓存（访问内存速度小于ALU计算速度，cache存储常用数据）——motherboard主板——pipelining流水线（可重复执行的小步骤）——fetch-execute cycle读取执行周期——周期四步（fetch next instruction读取下一条指令，decode instruction解析指令，get data if need，execute the instruction执行指令）——fetch next instruction需要PC程序计数器存放的下一条指令地址——RAM 随机访问存储器random-access memory每个存储单元都能直接访问——ROM只读存储器read-only memory——secondary storage devices二级存储设备也叫auxiliary storage devices辅助存储设备——magnetic tape磁带——magnetic tape drive磁带驱动器（第一个大容量secondary storage devices）——magnetic disks磁盘——magnetic disks drives磁盘驱动器——tracks磁道——sectors扇区——每个sectors存放一个block信息块——seek time寻道时间——latecy等待时间——access time存取时间——transfer rate传送速率——cylinder柱面——CD光盘compact disk——DVD一种二级存储设备——flash drives闪存也叫U盘————固态硬盘SSD——touch screen触摸屏如手机屏——embedded systems嵌入式系统——parallel architecture并行体系结构——parallel computing并行计算——synchronous processing同步处理
 
 Computer Systems Organization 计算机系统组成/计算机组成原理 
 
@@ -128,6 +128,8 @@ Synchronous同步				Pipelining流水线
  
 
 # Chapter 6
+- programmable可编程——store存储——retrieve检索——process处理——machine language机器语言——computer instruction计算机指令——pep/8 a virtual computer一台虚拟机，模拟真实机器的假想机器，有39条instruction、——accumulator累加器，一种register——instruction format指令格式——指令（8位的instruction specifier指令说明符，16位的operand specifier操作数说明符——指令说明符（操作码operation codes又叫opcodes和addressing mode specifier寻址说明符说明怎么解析操作码）——addressing mode寻址模式（immediate立即寻址，direct直接寻址）——unary instruction一元指令（没有操作数，要处理的数据）——fetch next instruction(from program counter程序计数器）——decode instruction（解析指令并update program counter程序计数器）get data（就是operand操作数）if need——execute instruction——assembly language汇编语言——assembler汇编器翻译成机器语言——pep/8 assembly language这个虚拟机的汇编语言——assembler directives汇编器指令翻译汇编语言使用的指令——comment注释——source code源代码——object code结果代码——assembler listing汇编器列表——啊 program with branching带有分支的程序——a program with a loop带有循环的程序——pseudocode伪码——string字符串——repetition重复——selection选择boolean expression布尔表达式——variables变量——assignment赋值——iteration迭代——text测试（code-coverage（clear-box）testing）代码覆盖明箱测试，data-coverage（black-box）testing）数据覆盖暗箱测试
+
 Algorithm 算法 				Algorithmic Thinking 算法思维
 Control structure 控制结构	Data abstraction数据抽象		Procedure abstraction过程抽象
 
@@ -143,6 +145,8 @@ Desk Checking 桌面检查 	Inspection代码审查	Walk through代码走查		Rev
 Module 模块		Semantic 语义		Syntax句法		Sorting 分类		Sort Key分类键
 
 # Chapter 7
+- divide and conquer分治法——computer problem-solve process计算机问题求解过程（analysis and specification phase分析和说明阶段，algorithm development phase算法开发阶段——implement phase实现阶段——maintenance phase维护阶段——nested structure嵌套结构——arrays数组——searching algorithms搜索算法——sequential search 顺序搜索——binary search二分搜索——selection sort选择排序——bubble sort冒泡排序——insertion sort——recursive algorithm递归算法——quicksort快速排序——information hiding信息隐蔽，隐藏细节——abstraction抽象——data abstraction数据抽象（把data的logical view和实现分离）——procedural abstraction过程抽象（把action动作的logical view和实现分离）——control abstraction控制抽象（把control structure 的logical view和实现分离）——naming thing 事物命名——
+
 Machine language 机器语言		Assembly language 汇编语言 		
 Assembler 汇编程序	Editor 编辑程序	  Loader 加载程序   Language translators 语言翻译程序
 Comment 注释
@@ -152,6 +156,7 @@ Code-coverage(clear-box) testing 代码覆盖(白盒)测试
 Data-coverage(black-box) testing 数据覆盖(黑盒) 测试
 
 # Chapter 8
+
 Compiler 编译器		Interpreters 解释器/程序
 Linker 链接程序 	 
 
