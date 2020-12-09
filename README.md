@@ -1,6 +1,6 @@
 # 计算机科学概论
 
-- Chapter 1 the big picture
+# Chapter 1 the big picture
 Abstraction 抽象					Computing System 计算系统
 Computer hardware 计算机硬件 		Computer software计算机软件
 
@@ -36,8 +36,7 @@ BASIC（Beginner’s All-Purpose Symbolic Instruction Code）初学者多功能�
 Turing machine 图灵机
  
 
-Information Layer
-Chapter 2 Binary Value and Number Systems
+- Chapter 2 Binary Value and Number Systems
 binary digit 二进制数字
 positional notation 位置记数法 	place value 位值
 base 基数 
@@ -49,7 +48,7 @@ number 数值，数 integer  整数 natural number  自然数 negative number �
 bit (b小写) 位,比特   Byte (b大写)  字节 	word 字  word length字长
 KB/MB/GB	（Kilobyte/Megabyte/Gigabyte）千字节/兆字节,百万字节/十亿字节
 
-Chapter 3 Data Representation
+- Chapter 3 Data Representation
 Analog data 模拟数据    Digital data 数字数据  
 Digitize 数字化 Pulse Code Modulation (PCM) 脉冲编码调制 
 Multimedia 多媒体 		 Bandwidth 带宽
