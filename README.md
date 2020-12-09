@@ -1,18 +1,27 @@
 # 计算机科学概论
-
+# 记下手机页数，看中文英文重要词
 # Chapter 1 the big picture
+- transistor 晶体管（第二代）magnetic cores磁芯（第二代存储器）magnetic disk磁盘（第二代）circuit boards电路板（第二代）
+integrated circuits 集成电路IC（第三代）terminal终端（带有键盘和屏幕的输入输出设备，第三代）large-scale integration characterizes大规模集成化（第四代）personal computer（PC个人计算机，第四代）parallel computing并行计算 networking联网 
+first-generation software第一代软件（1951——1959，machine language ，binary，assembly languages汇编语言，translators翻译程序——assembler汇编器将汇编语言翻译成机器语言）
+second-generation software第二代软件（1959——1965——high-level languages高级语言——FORTRAN——COBOL——Lisp——compiler编译器）
+third-generation software第三代软件（1965——1971——operator system操作系统决定何时运行什么程序）
+第四代（1971——1989——structure programming结构化程序设计——C语言
+第五代（1990至今——world wide web万维网
+
 Abstraction 抽象					Computing System 计算系统
 Computer hardware 计算机硬件 		Computer software计算机软件
 
 Central Processing Unit中央处理器 
+magnetic tape drives磁带驱动器（第一代）
 Memory 存储器 			Main Memory 主存/内存 	Secondary/Auxiliary memory辅助存储器
-Disk drive磁盘驱动器  	Magnetic Disk磁盘	Hard disk硬[磁]盘	Floppy disk软[磁]盘
-Peripheral device外围设备 	Terminal 终端	Keyboards 键盘		Monitors显示器 
+Disk drive磁盘驱动器  	Magnetic Disk磁盘	Hard disk硬[磁]盘	Floppy disk软[磁]盘 auxiliary storage devices辅助存储设备
+Peripheral device外围设备（输入输出辅助存储） 	Terminal 终端	Keyboards 键盘		Monitors显示器 
 magnetic tape drives 磁带机   Card reader 卡片阅读器 	Punched card 穿孔卡	Line printer行打印机
 
 Circuit boards电路板 			chips 芯片		Microchips 微芯片		Wires 导线
-Integrated Circuits (ICs) 集成电路			Transistors晶体管		Vacuum tubes 真空管
-Magnetic cores 磁芯	  		Magnetic Drum 磁鼓				
+Integrated Circuits (ICs) 集成电路			Transistors晶体管		Vacuum tubes 真空管（第一代）
+Magnetic cores 磁芯	  		Magnetic Drum 磁鼓（第一代计算机主存储器）				
 Large-scale Integration (LSI) 大规模集成 	Very Large-scale Integration(VLSI) 超大规模集成
 
 Representation 表示		GUI (Graphic User Interface) 图形用户界面
