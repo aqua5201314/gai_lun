@@ -36,7 +36,7 @@ BASIC（Beginner’s All-Purpose Symbolic Instruction Code）初学者多功能�
 Turing machine 图灵机
  
 
-- Chapter 2 Binary Value and Number Systems
+# Chapter 2 Binary Value and Number Systems
 binary digit 二进制数字
 positional notation 位置记数法 	place value 位值
 base 基数 
@@ -48,7 +48,7 @@ number 数值，数 integer  整数 natural number  自然数 negative number �
 bit (b小写) 位,比特   Byte (b大写)  字节 	word 字  word length字长
 KB/MB/GB	（Kilobyte/Megabyte/Gigabyte）千字节/兆字节,百万字节/十亿字节
 
-- Chapter 3 Data Representation
+# Chapter 3 Data Representation
 Analog data 模拟数据    Digital data 数字数据  
 Digitize 数字化 Pulse Code Modulation (PCM) 脉冲编码调制 
 Multimedia 多媒体 		 Bandwidth 带宽
@@ -77,8 +77,7 @@ Video视频		Codec编解码器 = Compressor编码器 / DECompressor 解码器
 Redundancy冗余 	Temporal compression 时间压缩 	Spatial compression 空间压缩
  
 
-The Hardware Layer
-Chapter 4 Gates and Circuits
+# Chapter 4 Gates and Circuits
 Transistor 三极管/晶体管/半导体 		Gate 门 	
 Semiconductor 半导体 				Conductor 导体 				Insulator 绝缘体
 
@@ -91,7 +90,7 @@ S-R latch S-R锁存器
 Boolean algebra布尔代数				Logic Diagram逻辑图			Truth Table真值表
 Circuit Equivalence 等值电路
 
-Chapter 5 Computing Components
+# Chapter 5 Computing Components
 Computer Systems Organization 计算机系统组成/计算机组成原理 
 
 Von Neumann Architecture 冯·诺依曼体系结构
@@ -113,8 +112,7 @@ Platter盘片					Capacity容量
 Synchronous同步				Pipelining流水线
  
 
-The Programming layer
-Chapter 6
+# Chapter 6
 Algorithm 算法 				Algorithmic Thinking 算法思维
 Control structure 控制结构	Data abstraction数据抽象		Procedure abstraction过程抽象
 
@@ -129,7 +127,7 @@ Desk Checking 桌面检查 	Inspection代码审查	Walk through代码走查		Rev
 
 Module 模块		Semantic 语义		Syntax句法		Sorting 分类		Sort Key分类键
 
-Chapter 7
+# Chapter 7
 Machine language 机器语言		Assembly language 汇编语言 		
 Assembler 汇编程序	Editor 编辑程序	  Loader 加载程序   Language translators 语言翻译程序
 Comment 注释
@@ -138,7 +136,7 @@ Test plan 测试计划  		Test cases 测试用例
 Code-coverage(clear-box) testing 代码覆盖(白盒)测试
 Data-coverage(black-box) testing 数据覆盖(黑盒) 测试
 
-Chapter 8
+# Chapter 8
 Compiler 编译器		Interpreters 解释器/程序
 Linker 链接程序 	 
 
@@ -157,11 +155,11 @@ variable 变量			data type 数据类型		strong typing 强类型
 assignment statements 赋值语句	conditional statements 条件语句	looping statements 循环语句
 subprogram 子程序		procedure 过程		function 函数
 
-Chapter 9 (Not Required)
+# Chapter 9 (Not Required)
  
 
 The Operating System Layer
-Chapter 10
+# Chapter 10
 Operating System (OS) 操作系统 
 
 Process 进程		PCB (Process Control Block)进程控制块	Process Management 进程管理
@@ -182,7 +180,7 @@ First Fit 首次适应算法	Best Fit 最佳适应算法	Worst Fit 最坏适应�
 Multiprogramming 多道程序设计		Batch Processing批处理	
 Timesharing分时					Real-Time System实时	
 
-Chapter 11
+# Chapter 11
 Directory 目录		Directory tree目录树	Root directory 根目录
 Working directory  工作目录
 
@@ -200,8 +198,7 @@ Chapter 13
 Chapter 14
  
 
-The Communication Layer
-Chapter 15 
+# Chapter 15 
 Networking 联网 		Client/Server (C/S) 客户/服务器		Browser/Server (B/S) 浏览器/服务器
 Local-area network (LAN) 局域网 		Wide-area network (WAN) 广域网
 Network topology 网络拓扑结构 		Ring/Star/Bus topology令牌环/星形/总线拓扑结构
@@ -229,7 +226,7 @@ HTTPS (Hyper Text Transfer Protocol Secure安全超文本传输协议
 Firewall 防火墙	
 Hostname	主机名	IP Address	IP地址		DNS(Domain name system) 域名服务器
 
-Chapter 16
+# Chapter 16
 World Wide Web (WWW, 3W) 万维网		URL (Uniform Resource Locator) 统一资源定位符
 Search engine 搜索引擎		Instant messaging 即时通信		Metalanguage 元语言
 Web log 	Web日志		Tag 标签		Link 链接	Hyperlink 超链接		Attribute 属性
@@ -239,7 +236,7 @@ XML (Extensible Markup Language) 可扩展标记语言	XML(eXtensible Stylesheet
 DTD（Document Type Definition）文档类型定义
  
 In Conclusion
-Chapter 17
+# Chapter 17
 Limitations of Computing 计算的限制
 Polynomial 多项式的 Exponential 指数的  Factorial 阶乘的
 Class P problems  P类问题 		Class NP problems  NP类问题
