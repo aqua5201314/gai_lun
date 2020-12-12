@@ -156,6 +156,7 @@ Code-coverage(clear-box) testing 代码覆盖(白盒)测试
 Data-coverage(black-box) testing 数据覆盖(黑盒) 测试
 
 # Chapter 8
+- abstract data type抽象数据类型ADT——data structure数据结构——container容器——stacks栈LIFO后进先出——Queues队列FIFO先进先出——List列表By linear线性的——list既可以是array数组也可以是linked structure链式结构，都是序列式容器——Trees——binary tree二叉树——parents——children——Binary search tree二叉搜索树——print the data输出数据——graphs图（consist of a set of nodes and a set of edges边——vertex顶点，图中的节点——edge arc边弧——undirect graph无向图边没有方向如公路两边都可以走——direct graph有向图digraph边是一个顶点指向另一个顶点——adjacent vertice邻顶点——path两顶点间一系列顶点——weights权值——table表格——depth-first search深度优先搜索——breadth-first search广度优先搜索——single-source shortest-path search单源最短路搜索——shortest path最短路径权值和最短——subprograms子程序——parameter passing参数传递——parameter list参数列表——parameter形参——argument实参——reference parameter引用参数—
 
 Compiler 编译器		Interpreters 解释器/程序
 Linker 链接程序 	 
@@ -175,11 +176,12 @@ variable 变量			data type 数据类型		strong typing 强类型
 assignment statements 赋值语句	conditional statements 条件语句	looping statements 循环语句
 subprogram 子程序		procedure 过程		function 函数
 
-# Chapter 9 (Not Required)
- 
+# Chapter 9 
+ —functional design功能设计——object-oriented design面向对象设计——assembly汇编——compilation编译——interpretation解释——execution执行——object-oriented methodology面型对象方法——object orientation面向对象OOD object orientation designed——field域，作用域——method方法，类中函数——design methodology设计方法——brainstorm头脑风暴集体讨论——filtering过滤——scenarios场景——encapsulates封装——responsibility algorithms责任算法——translation process翻译过程——assembler汇编器——compilers编译器——interpreters解释器（input high-level language program，directs the computer——second-generation high-level language第二代高级语言（compiled要编译的FORTRAN，COBOL，ALGOL，   interpreted要解释的Lisp，APL）——JAVA（1996）——standard machine language标准机器语言（bytecode字节码）——programming language paradigms程序设计语言泛型paradigm——imperative paradigm命令式泛型（procedural paradigm面向过程泛型，object-oriented paradigm面向对象泛型——）——declarative paradigm声明式泛型——boolean expression布尔表达式——strong typing强类型化只有该变量类型的值才能储存——data typing数据类型——integers整数——reals实数——characters字符——strings字符串——declarations声明——reserved word保留字就是关键字——case sensitive区分大小写——control structure控制结构ifelse——nested logic嵌套逻辑——functionality of object-oriented languages功能性——encapsulation封装——information hidingand abstracion信息隐藏抽象——problem-solve phase问题求解阶段——implementation phase实现阶段——instantiate实例化——inheritance继承——polymorphism多态——procedural过程
 
 The Operating System Layer
 # Chapter 10
+- operating systems操作系统——memory内存——process management进程管理——timesharing分时操作——virtual machine虚拟机——logical address逻辑地址——physical address物理地址——fixed partition固定分区——dynamic partition动态分区——partition selection algorithms分区选择算法——demand paging请求分页——virtual memory虚拟内存——process left cycle进程生命周期——CPU scheduling algorithm cpu调度算法——application software应用软件——system software系统软件——dual-boot双引导——multiboot多引导system系统，开机可以选择多个操作系统其中一个——操作系统（windows，mac，UNIX，Linux）——multiprograming多道程序设计，内存中有多个程序——memory management内存管理，where programs are loaded in main memory——process进程——process management进程管理，track跟踪process——CPU schedule调度确定cpu要执行内存哪个进程，memory management和process management都要cpu management——batch processing批处理——timesharing分时（每个用户都有自己的virtual machine虚拟机每个永和都专有这台计算机的假象）——mainframe主机——logical addres逻辑地址一个普通地址的值，而不是一个具体的地址——physical address物理地址主存的真实地址——addresss binding地址联编（逻辑地址和物理地址间的转换）——single contiguous memory management单块内存管理——partition memory management分块内存管理——paged memory management分页内存管理——process state进程状态（new state创建阶段，ready state准备就绪阶段——running state运行阶段——waiting state等待阶段——terminated state终止阶段——cpu schedule cpu调度（nonpreemptive schedule非抢先调度——preemptive抢先调度——First come，first served先到先服务FCFS——shorstest Job next最短作业周期SJN——Round robin轮询法）
 Operating System (OS) 操作系统 
 
 Process 进程		PCB (Process Control Block)进程控制块	Process Management 进程管理
@@ -200,66 +202,3 @@ First Fit 首次适应算法	Best Fit 最佳适应算法	Worst Fit 最坏适应�
 Multiprogramming 多道程序设计		Batch Processing批处理	
 Timesharing分时					Real-Time System实时	
 
-# Chapter 11
-Directory 目录		Directory tree目录树	Root directory 根目录
-Working directory  工作目录
-
-File 文件			File type 文件类型		File extension 文件扩展名
-Path 路径		Absolute path 绝对路径		relative path 相对路径
-Binary file 二进制文件
-Direct file access直接文件系统访问		Sequential file access顺序文件访问
-
-Disk scheduling 磁盘调度
-Shortest-Seek-Time-First (SSTF) 最短寻道时间优先		SCAN 扫描调度
- 
-The Applications Layer ( not required)  
-Chapter 12
-Chapter 13
-Chapter 14
- 
-
-# Chapter 15 
-Networking 联网 		Client/Server (C/S) 客户/服务器		Browser/Server (B/S) 浏览器/服务器
-Local-area network (LAN) 局域网 		Wide-area network (WAN) 广域网
-Network topology 网络拓扑结构 		Ring/Star/Bus topology令牌环/星形/总线拓扑结构
-Ethernet 以太网  	Internet 因特网  	internet 互连网 	
-Broadband 宽带	Gateway 网关		Router路由器	 	Repeater 中继器 Packet switching 包交换
-Internet Service Provider（ISP）因特网服务提供商
-Modem (from modulator-demodulator) 调制解调器		 Cable Modem有线调制解调器
-DSL (Digital Subscriber Line)数字用户线  ADSL(Asymmetric Digital Subscriber Line)非对称数字用户线
-Download 下载		 Upload 上传
-
-Protocol 协议
-TCP/IP (Transmission Control Protocol /Internet Protocol) 传输控制协议/网际协议
-ICMP (Internet Control Message Protocol) 网间控制报文协议
-UDP (User Datagram Protocol) 用户数据报协议 		FTP (File Transfer Protocol) 文件传输协议
-Telnet远程登录		port 端口		
-
-SMTP (Simple Mail Transfer Protocol) 简单邮件传送协议
-IMAP (Internet Message Access Protocol Internet) Internet消息访问协议/交互邮件访问协议
-MIME(Multipurpose Internet Mail Extensions) 多用途网络邮件扩展
-
-HTTP (Hyper Text Transfer Protocol) 超文本传输协议
-HTML (Hyper Text Make-up Languages) 超文本标记语言
-HTTPS (Hyper Text Transfer Protocol Secure安全超文本传输协议
-
-Firewall 防火墙	
-Hostname	主机名	IP Address	IP地址		DNS(Domain name system) 域名服务器
-
-# Chapter 16
-World Wide Web (WWW, 3W) 万维网		URL (Uniform Resource Locator) 统一资源定位符
-Search engine 搜索引擎		Instant messaging 即时通信		Metalanguage 元语言
-Web log 	Web日志		Tag 标签		Link 链接	Hyperlink 超链接		Attribute 属性
-cookies存储在本地计算机上的用户访问网络的一段文本信息，含有用户的浏览偏好等信息记录
-
-XML (Extensible Markup Language) 可扩展标记语言	XML(eXtensible Stylesheet Language) 可扩展样式表语言
-DTD（Document Type Definition）文档类型定义
- 
-In Conclusion
-# Chapter 17
-Limitations of Computing 计算的限制
-Polynomial 多项式的 Exponential 指数的  Factorial 阶乘的
-Class P problems  P类问题 		Class NP problems  NP类问题
-Big-O notation complexity 大O时间复杂度度量
-Turing machine 图灵机
-Halting problem 停机问题  unsolvable problem 不可解问题
