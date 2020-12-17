@@ -9,196 +9,29 @@ third-generation software第三代软件（1965——1971——operator system�
 第四代（1971——1989——structure programming结构化程序设计——C语言
 第五代（1990至今——world wide web万维网
 
-Abstraction 抽象					Computing System 计算系统
-Computer hardware 计算机硬件 		Computer software计算机软件
-
-Central Processing Unit中央处理器 
-magnetic tape drives磁带驱动器（第一代）
-Memory 存储器 			Main Memory 主存/内存 	Secondary/Auxiliary memory辅助存储器
-Disk drive磁盘驱动器  	Magnetic Disk磁盘	Hard disk硬[磁]盘	Floppy disk软[磁]盘 auxiliary storage devices辅助存储设备
-Peripheral device外围设备（输入输出辅助存储） 	Terminal 终端	Keyboards 键盘		Monitors显示器 
-magnetic tape drives 磁带机   Card reader 卡片阅读器 	Punched card 穿孔卡	Line printer行打印机
-
-Circuit boards电路板 			chips 芯片		Microchips 微芯片		Wires 导线
-Integrated Circuits (ICs) 集成电路			Transistors晶体管		Vacuum tubes 真空管（第一代）
-Magnetic cores 磁芯	  		Magnetic Drum 磁鼓（第一代计算机主存储器）				
-Large-scale Integration (LSI) 大规模集成 	Very Large-scale Integration(VLSI) 超大规模集成
-
-Representation 表示		GUI (Graphic User Interface) 图形用户界面
-
-Microcomputer 微型计算机	Personal Computer（PC）个人计算机	Compatible machines 兼容机
-Workstations 工作站		File Server 文件服务器
-RISC (Reduced Instruction Set Computer) 精简指令集计算机 
-CISC (Complex Instruction Set Computer) 复杂指令集计算机
-Parallel computing 并行计算		Parallel architecture 并行体系结构
-SIMD (Single-Instruction Multiple-Data-stream) 单指令流多数据流)
-MIMD (Multiple-Instruction Multiple-Data-stream) 多指令流多数据流
-Embedded system 嵌入式系统
-
-Operating System (OS) 操作系统 	Time sharing 分时		Time slice 时间片
-
-Utility program 实用程序	Spreadsheets 电子表单	  Word processors 字处理程序   
-Database management systems 数据库管理系统
-
-BASIC（Beginner’s All-Purpose Symbolic Instruction Code）初学者多功能符号指令代码
-
-Turing machine 图灵机
- 
-
 # Chapter 2 Binary Value and Number Systems
 - natural number自然数——negative number负数——integer整数——rational number有理数——positional notation位值记数法——base基数——binary二进制——octal八进制——hexadecimal十六进制——power-of-2 number systems以2的幂为基数——low-voltage signal high-voltage signal低电平高电平——binary digit二进制数字（简称bit位）——bytes字节——words字（字节集合，words的bit就是计算机字长如64位计算机一个words有64bit8bytes
-binary digit 二进制数字
-positional notation 位置记数法 	place value 位值
-base 基数 
-Base 10, Decimal  十进制 
-Base 2, Binary  二进制 		Base 8, Octal, 八进制 		Base 16, Hexadecimal  十六进制
-
-number 数值，数 integer  整数 natural number  自然数 negative number 负数 rational number  有理数
-
-bit (b小写) 位,比特   Byte (b大写)  字节 	word 字  word length字长
-KB/MB/GB	（Kilobyte/Megabyte/Gigabyte）千字节/兆字节,百万字节/十亿字节
 
 # Chapter 3 Data Representation
 - data数据——information信息——multimedia多媒体——data compression数据压缩——bandwidth带宽（固定时间传输最大位数或字节数）——compression ratio压缩率——lossless compression无损压缩（不会丢失任何）——lossy compression有损压缩—— Analog data模拟数据（continuous representation连续表示——Digital data数字数据（discrete representation离散表示）——digitize数字化——pulse-code modulation（PCM脉冲编码，数字信号只在两个极端跳跃）——reclock（重新计时，信号在降级太多前重新计时恢复原始不会丢失信息）——binary representation（二进制表示法，1 0,00,01,10,11酸甜苦辣）——representing numeric data数字数据表示——representing negative values负数表示法——sign-magnitude representation符号数值表示法如正负号——fixe-sized numbers定长数字如0——49正常但50——99表示-50——-1,95-3=95+（-3）=95+（100-3）=192=92）——ten complement十进制补码——two complement二进制补码——0——0000 0000——-1——1111 1111——-2——1111 1110加减1,1变-1既可以-1-1来也可以取反加1——overflow溢出——representing real numbers实数表示法——radix point小数点——floating-point form浮点表示法（数字个数不变，小数点浮动）——binary floating-point二进制浮点表示法——scientific notation科学计数法（另一种浮点表示法）——representing text文本表示法——character set字符集（字符和表示他们的代码清单）——ASCII character set（7位表示每个字符，第八位check bit协助数据传输正确，新版本8位表示每个字符）前32个字符有特殊用途）Unicode character set是ASCII的超集——text compression文本压缩——keyword encoding关键字编码（一种文本压缩）——run-length encoding（行程长度编码）——huffman encoding赫夫曼编码——keyword encoding用单个字符代替常用单词——run-length encodingAAAAAAA=* A7，* 为flag character标志字符——huffman encoding较少的位表示高频字符如00表示A，1011表示D，原始A应该是8位现在是2位——representing audio data音频数据表示——sampling采样——audio formats音频格式WAV，AU，AIFF，VQF，MP3——MP3audio formatMP3音频格式——lossy compression有损压缩——lossless compression无损压缩——representing images and graphics图像图形表示——images图像（photograph照片）——graphics图形（lines drawing线条画）——representing color颜色表示法——color depth色深度——Hicolor增强彩色（color depth为16位）——true color真彩色（color depth为24位）——16M1670万种颜色——digitized images and graphics数字化图像和图形——pixels像素——resolution分辨率——raster-graphics format光栅图形格式（像素储存）——bitmap位图文件（只包括图像像素颜色）——GIF（graphics interchange format图形交换格式）只有256种颜色——JPEG格式（储存颜色图像首选）——PNG格式（portable network graphics可移植网络图像）不支持动画——vector representation of graphics矢量，线段和几何形表示图象——Flash矢量图形格式——SVG矢量图形格式——representing video视频表示法——video codecs视频编译码器（COmpressor压缩器DECompression解压缩器）lossy compression（temporal compression时间压缩，keyframe关键帧完全保存，近似帧只保存改变部分）（spatial compression空间压缩
-Analog data 模拟数据    Digital data 数字数据  
-Digitize 数字化 Pulse Code Modulation (PCM) 脉冲编码调制 
-Multimedia 多媒体 		 Bandwidth 带宽
-Compression ratio 压缩比/率			Data compression 数据压缩
-Compression 压缩  decompression 解压缩
-Lossless compression 无损压缩 		Lossy compressions有损压缩 
-
-numeric data 数值数据 		Radix point小数点 		Overflow 溢出
-Signed-magnitude representation 符号数值表示法  		Complement 补码 	
-floating-point 浮点 			Exponent 指数			Mantissa尾数
-
-Text 文本 Character set字符集  
-ASCII (American Standard Code for Information Interchange) 美国标准信息交换代码
-Unicode  统一码/万国码/单一码
-
-Encoding 编码  decoding 解码 
-Keyword encoding  Run-length encoding 行程编码 Huffman encoding 哈夫曼编码 
-
-Audio 音频 Sound wave 声波 Sampling 采样 Sampling Rate采样率 Bit Rates 比特率
-
-Picture (Image/photograph) 图像 	Graphic 图形 
-Resolution分辨率/解像度 	PIXELS (PICTure Element)像素  Color Depth 颜色的深度 TrueColor 真彩色 
-Raster-graphics/bitmaps 光栅图/位图  Vector graphics 矢量图/向量图
-
-Video视频		Codec编解码器 = Compressor编码器 / DECompressor 解码器
-Redundancy冗余 	Temporal compression 时间压缩 	Spatial compression 空间压缩
- 
 
 # Chapter 4 Gates and Circuits
 - gate门——circuits电路——boolean algebra布尔代数——logic diagram逻辑框图（电路图形化表示）——truth table真值表——NOT非门布尔代数A`逻辑框图三角形小圆圈，又叫inverter逆变器——AND与门布尔代数AB逻辑框图一半烧饼——OR或门布尔代数A+B逻辑框图箭头——XOR异或门布尔代数A+OB逻辑框图箭头后跟着一笔——NAND与非门（AB）`一半烧饼小圆圈——NOR或非门（A+B)`箭头求反——assignment statement赋值语句——constructing gate门构造——transistor晶体管（实现门，材料是semiconductor半导体）——combinational circuits组合电路（输入决定输出，教的都是）——sequential circuits时序电路（输入和电路当前状态前决定输出）——circuits equivalence电路等价，输入相同则输出相同——DeMorgan law德摩尔根定理（AB）`=A`+B`,(A+B)`=A`B`——Adders加法器（生成加法不考虑进位）——half Adder半加器（生成进位）——full adder全加器（加法考虑进位）——multiplexer多路复用电路（多条输入，选择一条输出）——circuits as memory储存器电路（储存信息的sequential circuits时序电路）——S-R latch sr锁存器（一种circuits as memory）——integrated circuits集成电路IC又叫chip芯片，嵌入多个门——SSI小规模集成电路10个门以内——MSI中，100以内——LSI大，100 000以内——VLSI超大，多于100 000——CPU chips最重要集成电路中央处理器
 
-Transistor 三极管/晶体管/半导体 		Gate 门 	
-Semiconductor 半导体 				Conductor 导体 				Insulator 绝缘体
-
-Circuit电路，门电路					Integrated circuit集成电路
-Combinational circuit 组合[逻辑]电路		Sequential circuit 时序[逻辑]电路
-
-Adder加法器		Full Adder 全加器		Half Adder半加器 			Multiplexer 多路选择器
-S-R latch S-R锁存器
-
-Boolean algebra布尔代数				Logic Diagram逻辑图			Truth Table真值表
-Circuit Equivalence 等值电路
-
 # Chapter 5 Computing Components
 - sorted-program存储程序——von Neumann architecture冯诺依曼结构——memory unit内存单元（存储data数据和instruction指令）——arithmetic/logic unit算术逻辑单元（算术和逻辑运算）——input unit输入单元——output unit输出单元——control unit控制单元（确保其他部件components参与表演）——central processing unit中央处理器（内含control unit和arithmetic/logic unit）——cell单元，一个bit，因为是存储单元所以叫cell——ALU算术逻辑单元，操作的是字word——register寄存器CPU中一小块存储区域只能容纳一个立刻会再次用到的word——control unit实现fetch-execute cycle读取执行周期——control unit有instruction register指令寄存器IR存放正在执行的指令和program counter程序计数器PC存放下一条要执行指令的地址——CPU中央处理器是control unit和arithmetic logic unit的结合——bus总线——bus width总线宽度（总线越宽，一次能传输的地址和数据bit越多）——cache缓存（访问内存速度小于ALU计算速度，cache存储常用数据）——motherboard主板——pipelining流水线（可重复执行的小步骤）——fetch-execute cycle读取执行周期——周期四步（fetch next instruction读取下一条指令，decode instruction解析指令，get data if need，execute the instruction执行指令）——fetch next instruction需要PC程序计数器存放的下一条指令地址——RAM 随机访问存储器random-access memory每个存储单元都能直接访问——ROM只读存储器read-only memory——secondary storage devices二级存储设备也叫auxiliary storage devices辅助存储设备——magnetic tape磁带——magnetic tape drive磁带驱动器（第一个大容量secondary storage devices）——magnetic disks磁盘——magnetic disks drives磁盘驱动器——tracks磁道——sectors扇区——每个sectors存放一个block信息块——seek time寻道时间——latecy等待时间——access time存取时间——transfer rate传送速率——cylinder柱面——CD光盘compact disk——DVD一种二级存储设备——flash drives闪存也叫U盘————固态硬盘SSD——touch screen触摸屏如手机屏——embedded systems嵌入式系统——parallel architecture并行体系结构——parallel computing并行计算——synchronous processing同步处理
-
-Computer Systems Organization 计算机系统组成/计算机组成原理 
-
-Von Neumann Architecture 冯·诺依曼体系结构
-Processor/CPU	处理器			Control Unit控制单元		Arithmetic/Logic Unit	算术/逻辑单元
-Primary Memory	主存		Secondary Memory	 辅存	Input/Output	输入/输出	bus 总线
-
-Register 寄存器				op code 操作码			Operand操作数
-Instruction cycle or processing cycle指令周期	
-Fetch the next instruction取指令		
-Decode the instruction	翻译指令	
-Get data if needed	必要时从内存取数据
-Execute the instruction	执行指令
-
-Cell	单元					Physical Address 物理地址
-RAM = Random Access Memory 随机访问存储器			ROM = Read Only Memory 只读存储器
-Sequence access顺序访问		direct access 直接访问
-Platter盘片					Capacity容量
-
-Synchronous同步				Pipelining流水线
- 
 
 # Chapter 6
 - programmable可编程——store存储——retrieve检索——process处理——machine language机器语言——computer instruction计算机指令——pep/8 a virtual computer一台虚拟机，模拟真实机器的假想机器，有39条instruction、——accumulator累加器，一种register——instruction format指令格式——指令（8位的instruction specifier指令说明符，16位的operand specifier操作数说明符——指令说明符（操作码operation codes又叫opcodes和addressing mode specifier寻址说明符说明怎么解析操作码）——addressing mode寻址模式（immediate立即寻址，direct直接寻址）——unary instruction一元指令（没有操作数，要处理的数据）——fetch next instruction(from program counter程序计数器）——decode instruction（解析指令并update program counter程序计数器）get data（就是operand操作数）if need——execute instruction——assembly language汇编语言——assembler汇编器翻译成机器语言——pep/8 assembly language这个虚拟机的汇编语言——assembler directives汇编器指令翻译汇编语言使用的指令——comment注释——source code源代码——object code结果代码——assembler listing汇编器列表——啊 program with branching带有分支的程序——a program with a loop带有循环的程序——pseudocode伪码——string字符串——repetition重复——selection选择boolean expression布尔表达式——variables变量——assignment赋值——iteration迭代——text测试（code-coverage（clear-box）testing）代码覆盖明箱测试，data-coverage（black-box）testing）数据覆盖暗箱测试
 
-Algorithm 算法 				Algorithmic Thinking 算法思维
-Control structure 控制结构	Data abstraction数据抽象		Procedure abstraction过程抽象
-
-Program程序		Programming language 编程语言
-Structured Programming 结构化程序设计	 	Object-Oriented Design 面向对象设计
-Top-down approach自顶向下方法				Bottom-up approach 自底向上方法 			
-
-Abstraction class 抽象类		Class 抽象类
-Information hiding 信息隐蔽		Encapsulation 封装		Inheritance 继承		Polymorphism 多态
-
-Desk Checking 桌面检查 	Inspection代码审查	Walk through代码走查		Review技术评审
-
-Module 模块		Semantic 语义		Syntax句法		Sorting 分类		Sort Key分类键
-
 # Chapter 7
-- divide and conquer分治法——computer problem-solve process计算机问题求解过程（analysis and specification phase分析和说明阶段，algorithm development phase算法开发阶段——implement phase实现阶段——maintenance phase维护阶段——nested structure嵌套结构——arrays数组——searching algorithms搜索算法——sequential search 顺序搜索——binary search二分搜索——selection sort选择排序——bubble sort冒泡排序——insertion sort——recursive algorithm递归算法——quicksort快速排序——information hiding信息隐蔽，隐藏细节——abstraction抽象——data abstraction数据抽象（把data的logical view和实现分离）——procedural abstraction过程抽象（把action动作的logical view和实现分离）——control abstraction控制抽象（把control structure 的logical view和实现分离）——naming thing 事物命名——
-
-Machine language 机器语言		Assembly language 汇编语言 		
-Assembler 汇编程序	Editor 编辑程序	  Loader 加载程序   Language translators 语言翻译程序
-Comment 注释
-
-Test plan 测试计划  		Test cases 测试用例
-Code-coverage(clear-box) testing 代码覆盖(白盒)测试
-Data-coverage(black-box) testing 数据覆盖(黑盒) 测试
+- divide and conquer分治法——computer problem-solve process计算机问题求解过程（analysis and specification phase分析和说明阶段，algorithm development phase算法开发阶段——implement phase实现阶段——maintenance phase维护阶段——nested structure嵌套结构——arrays数组——searching algorithms搜索算法——sequential search 顺序搜索——binary search二分搜索——selection sort选择排序——bubble sort冒泡排序——insertion sort——recursive algorithm递归算法——quicksort快速排序——information hiding信息隐蔽，隐藏细节——abstraction抽象——data abstraction数据抽象（把data的logical view和实现分离）——procedural abstraction过程抽象（把action动作的logical view和实现分离）——control abstraction控制抽象（把control structure 的logical view和实现分离）——naming thing 事物命名
 
 # Chapter 8
-- abstract data type抽象数据类型ADT——data structure数据结构——container容器——stacks栈LIFO后进先出——Queues队列FIFO先进先出——List列表By linear线性的——list既可以是array数组也可以是linked structure链式结构，都是序列式容器——Trees——binary tree二叉树——parents——children——Binary search tree二叉搜索树——print the data输出数据——graphs图（consist of a set of nodes and a set of edges边——vertex顶点，图中的节点——edge arc边弧——undirect graph无向图边没有方向如公路两边都可以走——direct graph有向图digraph边是一个顶点指向另一个顶点——adjacent vertice邻顶点——path两顶点间一系列顶点——weights权值——table表格——depth-first search深度优先搜索——breadth-first search广度优先搜索——single-source shortest-path search单源最短路搜索——shortest path最短路径权值和最短——subprograms子程序——parameter passing参数传递——parameter list参数列表——parameter形参——argument实参——reference parameter引用参数—
-
-Compiler 编译器		Interpreters 解释器/程序
-Linker 链接程序 	 
-
-Parameter 参数		Parameter list 参数表	
-Reference Parameter  引用参数		value parameter值参数		
-
-Object 对象			Object class 对象类		case 用例
-Encapsulation 封装		Inheritance 继承			Polymorphism 多态
-
-Imperative or procedural model 命令型/过程型	Functional model 函数式语言
-Logic Model 逻辑型 	Object-oriented Model 面向对象型
-
-Boolean expression 布尔表达式
-assertion 断言		Reserved word 保留字		Recursion 递归
-variable 变量			data type 数据类型		strong typing 强类型
-assignment statements 赋值语句	conditional statements 条件语句	looping statements 循环语句
-subprogram 子程序		procedure 过程		function 函数
+- abstract data type抽象数据类型ADT——data structure数据结构——container容器——stacks栈LIFO后进先出——Queues队列FIFO先进先出——List列表By linear线性的——list既可以是array数组也可以是linked structure链式结构，都是序列式容器——Trees——binary tree二叉树——parents——children——Binary search tree二叉搜索树——print the data输出数据——graphs图（consist of a set of nodes and a set of edges边——vertex顶点，图中的节点——edge arc边弧——undirect graph无向图边没有方向如公路两边都可以走——direct graph有向图digraph边是一个顶点指向另一个顶点——adjacent vertice邻顶点——path两顶点间一系列顶点——weights权值——table表格——depth-first search深度优先搜索——breadth-first search广度优先搜索——single-source shortest-path search单源最短路搜索——shortest path最短路径权值和最短——subprograms子程序——parameter passing参数传递——parameter list参数列表——parameter形参——argument实参——reference parameter引用参数
 
 # Chapter 9 
  —functional design功能设计——object-oriented design面向对象设计——assembly汇编——compilation编译——interpretation解释——execution执行——object-oriented methodology面型对象方法——object orientation面向对象OOD object orientation designed——field域，作用域——method方法，类中函数——design methodology设计方法——brainstorm头脑风暴集体讨论——filtering过滤——scenarios场景——encapsulates封装——responsibility algorithms责任算法——translation process翻译过程——assembler汇编器——compilers编译器——interpreters解释器（input high-level language program，directs the computer——second-generation high-level language第二代高级语言（compiled要编译的FORTRAN，COBOL，ALGOL，   interpreted要解释的Lisp，APL）——JAVA（1996）——standard machine language标准机器语言（bytecode字节码）——programming language paradigms程序设计语言泛型paradigm——imperative paradigm命令式泛型（procedural paradigm面向过程泛型，object-oriented paradigm面向对象泛型——）——declarative paradigm声明式泛型——boolean expression布尔表达式——strong typing强类型化只有该变量类型的值才能储存——data typing数据类型——integers整数——reals实数——characters字符——strings字符串——declarations声明——reserved word保留字就是关键字——case sensitive区分大小写——control structure控制结构ifelse——nested logic嵌套逻辑——functionality of object-oriented languages功能性——encapsulation封装——information hidingand abstracion信息隐藏抽象——problem-solve phase问题求解阶段——implementation phase实现阶段——instantiate实例化——inheritance继承——polymorphism多态——procedural过程
 
-The Operating System Layer
 # Chapter 10
 - operating systems操作系统——memory内存——process management进程管理——timesharing分时操作——virtual machine虚拟机——logical address逻辑地址——physical address物理地址——fixed partition固定分区——dynamic partition动态分区——partition selection algorithms分区选择算法——demand paging请求分页——virtual memory虚拟内存——process left cycle进程生命周期——CPU scheduling algorithm cpu调度算法——application software应用软件——system software系统软件——dual-boot双引导——multiboot多引导system系统，开机可以选择多个操作系统其中一个——操作系统（windows，mac，UNIX，Linux）——multiprograming多道程序设计，内存中有多个程序——memory management内存管理，where programs are loaded in main memory——process进程——process management进程管理，track跟踪process——CPU schedule调度确定cpu要执行内存哪个进程，memory management和process management都要cpu management——batch processing批处理——timesharing分时（每个用户都有自己的virtual machine虚拟机每个永和都专有这台计算机的假象）——mainframe主机——logical addres逻辑地址一个普通地址的值，而不是一个具体的地址——physical address物理地址主存的真实地址——addresss binding地址联编（逻辑地址和物理地址间的转换）——single contiguous memory management单块内存管理——partition memory management分块内存管理——paged memory management分页内存管理——process state进程状态（new state创建阶段，ready state准备就绪阶段——running state运行阶段——waiting state等待阶段——terminated state终止阶段——cpu schedule cpu调度（nonpreemptive schedule非抢先调度——preemptive抢先调度——First come，first served先到先服务FCFS——shorstest Job next最短作业周期SJN——Round robin轮询法）
-Operating System (OS) 操作系统 
-
-Process 进程		PCB (Process Control Block)进程控制块	Process Management 进程管理
-
-CPU Scheduling  CPU调度 			First-Come, First-Served (FCFS) 先来先服务
-Shortest Job Next (SJN) 最短作业/进程优先 	Round Robin 轮转/循环调度
-Turnaround Time周转时间		Average Turnaround Time 平均周转时间 
-
-Memory Management 内存管理		Address Binding 地址绑定
-Single Contiguous 单一连续分配	
-Partition Approach 分区 	Fixed Partition 固定分区分配	Dynamic Partition 动态分区分配
-
-Physical Address 物理地址(绝对地址) 		Logical Address 逻辑地址(相对地址)
-
-Paging分页	Frames 块	Fixed-Pages 固定页面 	Pmt (Page Map Table)页表
-First Fit 首次适应算法	Best Fit 最佳适应算法	Worst Fit 最坏适应算法 
-
-Multiprogramming 多道程序设计		Batch Processing批处理	
-Timesharing分时					Real-Time System实时	
-
